@@ -10,7 +10,7 @@ public class DepthFirst {
     
     // If path was found, this method will return true
     // and the path list will be filled
-    // like this: { xn, yn, ..., x2, y2, x1, y1, x0, y1 }
+    // like this: { xn, yn, ..., x2, y2, x1, y1, x0, y0 }
     // so the order is inverted ...
     // x and y are the start searching position
     public static boolean searchPath(int[][] maze, int x, int y
