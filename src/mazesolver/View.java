@@ -23,8 +23,9 @@ public class View extends JFrame {
      *         1 = wall (blocked)
      *         2 = visited node
      *         9 = target node
+     *
+     * borders must be filled with "1" to void ArrayIndexoutOfBounds exception.
      */
-    
     private int [][] maze = 
         { {1,1,1,1,1,1,1,1,1,1,1,1,1},
           {1,0,1,0,1,0,1,0,0,0,0,0,1},
