@@ -13,6 +13,9 @@ public class DepthFirst {
     // like this: { xn, yn, ..., x2, y2, x1, y1, x0, y0 }
     // so the order is inverted ...
     // x and y are the start searching position
+    //
+    // Note: all visited nodes of maze array will be filled with 2
+    //       and won't be cleaned up automatically
     public static boolean searchPath(int[][] maze, int x, int y
             , List<Integer> path) {
         
